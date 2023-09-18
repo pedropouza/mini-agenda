@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Agenda de Tarefas</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mini Agenda de Tarefas</h1>
+
+  <form id="collectInfo">
+    <header>
+      <h2>Escolha a Data:</h2>
+      <input type="date" name="selectDate" id="selectDate" required>
+      <button type="button" id="addTask">Adicionar Tarefa</button>
+    </header>
+    <ul id="taskList"></ul>
+    <section id="buttonSection">
+      <button type="reset" id="resetButton">Limpar</button>
+      <button type="submit" id="saveButton">Salvar</button>
+    </section>
+  </form>
+
+  <section id="listSection"></section>
+</body>
+</html>
